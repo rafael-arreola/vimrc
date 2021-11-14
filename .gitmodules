@@ -1,6 +1,6 @@
-[submodule "/home/rafael-arreola/.vim/pack/plugins/start/vim-polyglot"]
-	path = /home/rafael-arreola/.vim/pack/plugins/start/vim-polyglot
+[submodule "pack/plugins/start/vim-polyglot"]
+	path = pack/plugins/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot
-[submodule "/home/rafael-arreola/.vim/pack/plugins/start/lightline"]
-	path = /home/rafael-arreola/.vim/pack/plugins/start/lightline
+[submodule "pack/plugins/start/lightline"]
+	path = pack/plugins/start/lightline
 	url = https://github.com/itchyny/lightline.vim
