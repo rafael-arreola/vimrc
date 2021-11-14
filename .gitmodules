@@ -13,3 +13,6 @@
 [submodule "pack/plugins/start/vim-signify"]
 	path = pack/plugins/start/vim-signify
 	url = https://github.com/mhinz/vim-signify.git
+[submodule "pack/plugins/start/vim-identline"]
+	path = pack/plugins/start/vim-identline
+	url = https://github.com/Yggdroot/indentLine.git
