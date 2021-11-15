@@ -21,5 +21,6 @@ set background=dark
 colorscheme palenight
 let g:lightline = {'colorscheme': 'palenight'}
 let g:airline_theme = 'palenight'
-
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 let mapleader=" "
