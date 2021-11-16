@@ -19,3 +19,6 @@
 [submodule "pack/plugins/start/coc"]
 	path = pack/plugins/start/coc
 	url = https://github.com/neoclide/coc.nvim.git
+[submodule "pack/plugins/start/vim-identline-themes"]
+	path = pack/plugins/start/vim-identline-themes
+	url = https://github.com/vim-airline/vim-airline-themes

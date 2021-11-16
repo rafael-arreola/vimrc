@@ -1,3 +1,17 @@
 {
-  
+  "codeLens.enable": true,
+  "coc.preferences.extensionUpdateCheck": "daily",
+  "coc.preferences.formatOnType": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "markdown",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "jsonc"
+  ],
+  "languageserver": {
+  },
+  "eslint.autoFixOnSave": true
 }
