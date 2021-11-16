@@ -4,9 +4,6 @@
 [submodule "pack/plugins/start/lightline"]
 	path = pack/plugins/start/lightline
 	url = https://github.com/itchyny/lightline.vim
-[submodule "pack/plugins/start/palenight"]
-	path = pack/plugins/start/palenight
-	url = https://github.com/drewtempelmeyer/palenight.vim.git
 [submodule "pack/plugins/start/nerdtree"]
 	path = pack/plugins/start/nerdtree
 	url = https://github.com/preservim/nerdtree.git
@@ -22,3 +19,6 @@
 [submodule "pack/plugins/start/vim-identline-themes"]
 	path = pack/plugins/start/vim-identline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "pack/plugins/start/gruvbox"]
+	path = pack/plugins/start/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
