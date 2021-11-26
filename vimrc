@@ -6,7 +6,7 @@ set number
 set mouse=a
 set autoindent
 set numberwidth=2
-set clipboard=unnamed
+set clipboard=unnamedplus
 set showmatch
 set relativenumber
 
