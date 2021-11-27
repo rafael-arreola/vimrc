@@ -12,14 +12,12 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Move lines up or down
-nnoremap K :m .-2<Enter>==
-nnoremap J :m .+1<Enter>==
-vnoremap K :m '<-2<Enter>gv=gv
-vnoremap J :m '>+1<Enter>gv=gv
-nnoremap <A-UP> :m .-2<Enter>
-nnoremap <A-Down> :m .+1<Enter>==
-inoremap <A-Up> <Esc>:m .-2<Enter><Right>i
-inoremap <A-Down> <Esc>:m .+1<Enter><Right>i
+vnoremap <silent><C-k> :m '<-2<Enter>gv=gv
+vnoremap <silent><C-j> :m '>+1<Enter>gv=gv
+nnoremap <silent><C-k> :m .-2<Enter>==
+nnoremap <silent><C-j> :m .+1<Enter>==
+inoremap <silent><C-k> <Esc>:m .-2<Enter>==<Right>i
+inoremap <silent><C-j> <Esc>:m .+1<Enter>==<Right>i
 
 nmap <S-Tab> <<
 nmap <Tab> >>
@@ -47,3 +45,6 @@ autocmd VimEnter * call MapLeft()
 autocmd VimEnter * call MapRight()
 autocmd VimEnter * call MapUp()
 autocmd VimEnter * call MapDown()
+
+imap <C-q> <Esc>:bd<Enter>
+nmap <C-q> :bd<Enter>
