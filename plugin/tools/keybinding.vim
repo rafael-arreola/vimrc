@@ -25,26 +25,22 @@ nmap <S-Tab> <<
 nmap <Tab> >>
 
 function MapLeft()
-      unmap <C-Left>
       imap <A-S-Left> <Esc>vb
       nmap <A-S-Left> <Esc>vb
       vmap <A-S-Left> b
 endfunction
 function MapRight()
-      unmap <C-Right>
       imap <A-S-Right> <Esc>ve
       nmap <A-S-Right> <Esc>ve
       vmap <A-S-Right> e
 endfunction
 function MapUp()
-      unmap <C-Up>
-      imap <C-Up> <Esc>{i
-      nmap <C-Up> {
+      imap <A-Up> <Esc>{i
+      nmap <A-Up> {
 endfunction
 function MapDown()
-      unmap <C-Down>
-      imap <C-Down> <Esc>}i
-      nmap <C-Down> }
+      imap <A-Down> <Esc>}i
+      nmap <A-Down> }
 endfunction
 
 autocmd VimEnter * call MapLeft()
