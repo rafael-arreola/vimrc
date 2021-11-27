@@ -34,3 +34,6 @@
 [submodule "pack/plugins/start/vim-tmux-navigator.vim"]
 	path = pack/plugins/start/vim-tmux-navigator.vim
 	url = https://github.com/christoomey/vim-tmux-navigator.git
+[submodule "pack/plugins/start/palenight.vim"]
+	path = pack/plugins/start/palenight.vim
+	url = https://github.com/drewtempelmeyer/palenight.vim.git

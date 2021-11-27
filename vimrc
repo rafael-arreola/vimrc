@@ -6,7 +6,7 @@ set number
 set mouse=a
 set autoindent
 set numberwidth=2
-set clipboard=unnamedplus
+set clipboard+=unnamedplus
 set showmatch
 set relativenumber
 
@@ -17,8 +17,8 @@ set smartcase
 
 set termguicolors
 
-colorscheme gruvbox
-let g:gruvbox_contrast_dark="hard"
+colorscheme palenight
+let g:airline_theme = 'palenight'
 highlight Normal ctermbg=NONE
 let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#tabline#formatter="unique_tail_improved"
