@@ -12,12 +12,12 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Move lines up or down
-vnoremap <silent><C-k> :m '<-2<Enter>gv=gv
-vnoremap <silent><C-j> :m '>+1<Enter>gv=gv
-nnoremap <silent><C-k> :m .-2<Enter>==
-nnoremap <silent><C-j> :m .+1<Enter>==
-inoremap <silent><C-k> <Esc>:m .-2<Enter>==<Right>i
-inoremap <silent><C-j> <Esc>:m .+1<Enter>==<Right>i
+vmap <C-k> :m '<-2<CR>gv=gv
+vmap <C-j> :m '>+1<CR>gv=gv
+nmap <C-k> :m .-2<CR>==
+nmap <C-j> :m .+1<CR>==
+imap <C-k> <Esc>:m .-2<CR>==<Right>i
+imap <C-j> <Esc>:m .+1<CR>==<Right>i
 
 nmap <S-Tab> <<
 nmap <Tab> >>
@@ -48,3 +48,6 @@ autocmd VimEnter * call MapDown()
 
 imap <C-q> <Esc>:bd<Enter>
 nmap <C-q> :bd<Enter>
+
+
+map <leader>d :bp<bar>sp<bar>bn<bar>bd<CR>

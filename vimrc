@@ -9,6 +9,7 @@ set numberwidth=2
 set clipboard+=unnamedplus
 set showmatch
 set relativenumber
+set cursorline
 
 set hlsearch
 set incsearch
@@ -17,8 +18,11 @@ set smartcase
 
 set termguicolors
 
-colorscheme palenight
-let g:airline_theme = 'palenight'
+colorscheme jellybeans
+let g:jellybeans_use_term_italics = 1
+
+" colorscheme palenight
+" let g:airline_theme = 'palenight'
 highlight Normal ctermbg=NONE
 let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#tabline#formatter="unique_tail_improved"
