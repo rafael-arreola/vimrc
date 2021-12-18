@@ -20,6 +20,5 @@
       "trace.server": "verbose",
       "filetypes": ["go"]
     }
-  },
-  "eslint.autoFixOnSave": true
+  }
 }
