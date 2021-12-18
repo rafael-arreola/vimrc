@@ -14,10 +14,10 @@
 " Move lines up or down
 vmap <C-k> :m '<-2<CR>gv=gv
 vmap <C-j> :m '>+1<CR>gv=gv
-nmap <C-k> :m .-2<CR>==
-nmap <C-j> :m .+1<CR>==
 imap <C-k> <Esc>:m .-2<CR>==<Right>i
 imap <C-j> <Esc>:m .+1<CR>==<Right>i
+nmap <C-k> :m .-2<CR>==
+nmap <C-j> :m .+1<CR>==
 
 nmap <S-Tab> <<
 nmap <Tab> >>
@@ -37,8 +37,8 @@ function MapUp()
       nmap <A-Up> {
 endfunction
 function MapDown()
-      imap <A-Down> <Esc>}i
-      nmap <A-Down> }
+      imap <silent><A-Down> <Esc>}i
+      nmap <silent><A-Down> }
 endfunction
 
 autocmd VimEnter * call MapLeft()
