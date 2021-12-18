@@ -13,6 +13,13 @@
     "json",
     "jsonc"
   ],
-  "languageserver": {},
+  "languageserver": {
+    "go": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "trace.server": "verbose",
+      "filetypes": ["go"]
+    }
+  },
   "eslint.autoFixOnSave": true
 }
