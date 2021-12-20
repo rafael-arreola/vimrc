@@ -11,7 +11,8 @@
     "typescript",
     "typescriptreact",
     "json",
-    "jsonc"
+    "jsonc",
+    "go"
   ],
   "languageserver": {
     "go": {
