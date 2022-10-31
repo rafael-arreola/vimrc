@@ -1,0 +1,33 @@
+[submodule "pack/modules/start/nerdtree"]
+	path = pack/modules/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule "pack/modules/start/copilot.vim"]
+	path = pack/modules/start/copilot.vim
+	url = https://github.com/github/copilot.vim.git
+[submodule "pack/modules/start/coc.vim"]
+	path = pack/modules/start/coc.vim
+	url = https://github.com/neoclide/coc.nvim.git
+[submodule "pack/modules/start/fzfvim.vim"]
+	path = pack/modules/start/fzfvim.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule "pack/modules/start/fzf.vim"]
+	path = pack/modules/start/fzf.vim
+	url = https://github.com/junegunn/fzf
+[submodule "pack/modules/start/nightfox.vim"]
+	path = pack/modules/start/nightfox.vim
+	url = https://github.com/EdenEast/nightfox.nvim
+[submodule "pack/modules/start/vim-polyglot.vim"]
+	path = pack/modules/start/vim-polyglot.vim
+	url = https://github.com/sheerun/vim-polyglot
+[submodule "pack/modules/start/vim-airline.vim"]
+	path = pack/modules/start/vim-airline.vim
+	url = https://github.com/vim-airline/vim-airline
+[submodule "pack/modules/start/vim-surround.vim"]
+	path = pack/modules/start/vim-surround.vim
+	url = https://github.com/tpope/vim-surround
+[submodule "pack/modules/start/vim-signify.vim"]
+	path = pack/modules/start/vim-signify.vim
+	url = https://github.com/mhinz/vim-signify
+[submodule "pack/modules/start/nvim-treesitter.vim"]
+	path = pack/modules/start/nvim-treesitter.vim
+	url = https://github.com/nvim-treesitter/nvim-treesitter
