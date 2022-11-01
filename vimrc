@@ -46,9 +46,11 @@ map <C-l> <C-w>l
 noremap <leader>w :w<CR>
 map <C-Up> {
 map <C-Down> }
+
 "Files interaction
 map <C-p> :Files<CR>
 map <C-f> :CocSearch 
+map <leader><tab> :Buffers<CR>
 
 
 let g:airline#extensions#tabline#enabled = 1
