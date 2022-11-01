@@ -16,11 +16,16 @@ fi
 
 cd "${HOME}/.vim"
 
+git submodule update --init --recursive
+
 if [ ! -d "${HOME}/.config/nvim/" ]; then
   mkdir $HOME/.config/nvim/
 fi
 
 cp -S vim.init.bak "$HOME/.vim/vim.init" "$HOME/.config/nvim/init.vim"
 cp -S coc-settings.json.bak "$HOME/.vim/coc-settings.json" "$HOME/.config/nvim/coc-settings.json"
+
+cd "$HOME/.vim/pack/modules/start/coc.vim";
+npm install
 
 echo -e "export FZF_DEFAULT_COMMAND='fd --type f --exclude=node_modules'" >> ~/.zshrc
