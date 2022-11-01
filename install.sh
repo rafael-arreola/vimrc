@@ -1,4 +1,4 @@
-#/bin/bash
+#/bin/sh
 
 if [ -d "${HOME}/.vim" ]; then
     rm -rf "${HOME}/.vim"
