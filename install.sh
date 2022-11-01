@@ -6,11 +6,11 @@ fi
 
 git clone https://github.com/rafael-arreola/vimrc.git $HOME/.vim
 
-if [ -x "$(command -v paru)"]; then
+if [ ! "$(command -v paru)"]; then
   paru -Syu --noconfirm ttf-fira-code ttf-cascadia-code ttf-iosevka-nerd ttc-iosevka fzf
 fi
 
-if [ -x "$(command -v yay)"]; then
+if [ ! "$(command -v yay)"]; then
   yay -Syu --noconfirm ttf-fira-code ttf-cascadia-code ttf-iosevka-nerd ttc-iosevka fzf
 fi
 
