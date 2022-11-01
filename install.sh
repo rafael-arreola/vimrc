@@ -1,6 +1,6 @@
 #/bin/bash
 
-if [-d "${HOME}/.vim" ]; then
+if [ -d "${HOME}/.vim" ]; then
     rm -rf "${HOME}/.vim"
 fi
 
